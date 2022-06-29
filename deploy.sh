@@ -17,7 +17,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:Daotin/kt.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
+  githubUrl=https://daotin:${GITHUB_TOKEN}@github.com/daotin/kt.git
   git config --global user.name "daotin"
   git config --global user.email "daotin@qq.com"
 fi
